@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Time</title>
+        <link rel="stylesheet" href="css\\ui.css">
+        <script src="js\\ui.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="begin();">
+        <div class="header">
+            <p>Your Own Clock</p>
+        </div>
+        <div class="cont">
+            <p class="buttons">
+                <button onclick="change_time();" id="tab1">Current Time</button>
+                <button onclick="def_stopwatch();" id="tab2">StopWatch</button>
+            </p>
+            <p id="tag">Have a Good Day!</p>
+            <p id="time"></p>
+            <p class="buttons" id="stopwatch">
+                <button onclick="start_stopwatch();" id="start">Start</button>
+                <button onclick="reset_stopwatch();" id="reset">Reset</button>
+            </p>
+        </div>
+    </body>
+</html>
